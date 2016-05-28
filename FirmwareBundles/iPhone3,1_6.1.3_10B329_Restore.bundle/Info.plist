@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Filename</key>
+	<string>iPhone3,1_6.1.3_10B329_Restore.ipsw</string>
+	<key>All_flash Path</key>
+	<string>Firmware/all_flash/all_flash.n90ap.production/</string>
+	<key>Firmware Files</key>
+	<dict>
+		<key>manifest</key>
+		<dict>
+			<key>New item</key>
+			<string>manifest</string>
+			<key>File</key>
+			<string>Firmware/all_flash/all_flash.n90ap.production/manifest</string>
+		</dict>
+		<key>LLB</key>
+		<dict>
+			<key>Name</key>
+			<string>LLB.n90ap.RELEASE.img3</string>
+			<key>Patch</key>
+			<string>FirmwareBundles/iPhone3,1_6.1.3_10B329_Restore.ipsw/LLB.n90ap.RELEASE.patch</string>
+			<key>File</key>
+			<string>Firmware/all_flash/all_flash.n90ap.production/LLB.n90ap.RELEASE.img3</string>
+			<key>IV</key>
+			<string>e719a869fbb2a2265f78af5551842991</string>
+			<key>Key</key>
+			<string>681f1b336ce0edc1832d0064b73e8b095033c161fef947df9f663a75f10525fd</string>
+		</dict>
+		<key>iBoot</key>
+		<dict>
+			<key>Name</key>
+			<string>iBoot.n90ap.RELEASE.img3</string>
+			<key>Patch</key>
+			<string>FirmwareBundles/iPhone3,1_6.1.3_10B329_Restore.ipsw/iBoot.n90ap.RELEASE.patch</string>
+			<key>File</key>
+			<string>Firmware/all_flash/all_flash.n90ap.production/iBoot.n90ap.RELEASE.img3</string>
+			<key>IV</key>
+			<string>b559a2c7dae9b95643c6610b4cf26dbd</string>
+			<key>Key</key>
+			<string>3dbe8be17af793b043eed7af865f0b843936659550ad692db96865c00171959f</string>
+		</dict>
+		<key>DeviceTree</key>
+		<dict>
+			<key>Name</key>
+			<string>DeviceTree.n90ap.img3</string>
+			<key>Patch</key>
+			<string>FirmwareBundles/iPhone3,1_6.1.3_10B329_Restore.ipsw/DeviceTree.n90ap.patch</string>
+			<key>File</key>
+			<string>Firmware/all_flash/all_flash.n90ap.production/DeviceTree.n90ap.img3</string>
+			<key>New item</key>
+			<string></string>
+			<key>IV</key>
+			<string>4a44e07427942e3f0769cd2fb748f60e</string>
+			<key>Key</key>
+			<string>19dc906dbea48840bb32c20add34ac2ac3c2e599370b9b0964a13212dd8aa7e4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
