@@ -38,7 +38,7 @@ available xpwntool
 command -v bspatch >/dev/null 2>&1 || { echo "bspatch is not installed. Install it"; exit 1; }
 command -v unzip >/dev/null 2>&1 || { echo "unzip is not installed. Install it"; exit 1; }
 command -v zip >/dev/null 2>&1 || { echo "zip is not installed. Install it"; exit 1; }
-command -v /usr/libexec/PlistBuddy 2>&1 || { echo "You're not running OS X 10.5 or higher with XCode"; exit 1 }
+command -v /usr/libexec/PlistBuddy 2>&1 || { echo "You're not running OS X 10.5 or higher with XCode"; exit 1; }
 
 echo "Checking Bundles"
 
