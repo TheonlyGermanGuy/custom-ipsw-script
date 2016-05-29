@@ -66,7 +66,7 @@ DeviceTree_k=$(buddy DeviceTree:Key)
 
 LLB_patch=$(buddy LLB:Patch)
 iBoot_patch=$(buddy iBoot:Patch)
-DeviceTree_patch=$(budd DeviceTree:Patch)
+DeviceTree_patch=$(buddy DeviceTree:Patch)
 
 FirmwarePath=$(/usr/libexec/PlistBuddy -c 'Print :All_flash\ Path' FirmwareBundles/"$bundlename"/Info.plist)
 
