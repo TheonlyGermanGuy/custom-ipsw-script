@@ -20,7 +20,7 @@
 			<key>Name</key>
 			<string>LLB.n90ap.RELEASE.img3</string>
 			<key>Patch</key>
-			<string>FirmwareBundles/iPhone3,1_6.1.3_10B329_Restore.ipsw/LLB.n90ap.RELEASE.patch</string>
+			<string>FirmwareBundles/iPhone3,1_6.1.3_10B329_Restore.bundle/LLB.n90ap.RELEASE.patch</string>
 			<key>File</key>
 			<string>Firmware/all_flash/all_flash.n90ap.production/LLB.n90ap.RELEASE.img3</string>
 			<key>IV</key>
@@ -33,7 +33,7 @@
 			<key>Name</key>
 			<string>iBoot.n90ap.RELEASE.img3</string>
 			<key>Patch</key>
-			<string>FirmwareBundles/iPhone3,1_6.1.3_10B329_Restore.ipsw/iBoot.n90ap.RELEASE.patch</string>
+			<string>FirmwareBundles/iPhone3,1_6.1.3_10B329_Restore.bundle/iBoot.n90ap.RELEASE.patch</string>
 			<key>File</key>
 			<string>Firmware/all_flash/all_flash.n90ap.production/iBoot.n90ap.RELEASE.img3</string>
 			<key>IV</key>
@@ -46,7 +46,7 @@
 			<key>Name</key>
 			<string>DeviceTree.n90ap.img3</string>
 			<key>Patch</key>
-			<string>FirmwareBundles/iPhone3,1_6.1.3_10B329_Restore.ipsw/DeviceTree.n90ap.patch</string>
+			<string>FirmwareBundles/iPhone3,1_6.1.3_10B329_Restore.bundle/DeviceTree.n90ap.patch</string>
 			<key>File</key>
 			<string>Firmware/all_flash/all_flash.n90ap.production/DeviceTree.n90ap.img3</string>
 			<key>IV</key>
