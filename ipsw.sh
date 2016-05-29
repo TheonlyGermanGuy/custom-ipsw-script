@@ -85,9 +85,7 @@ echo "Decrypting Files"
 
 echo "Removing original files"
 
-rm -f "$LLB"
-rm -f "$iBoot"
-rm -f "$DeviceTree"
+rm -f "$LLB" "$iBoot" "$DeviceTree"
 
 echo "Patching Files"
 
@@ -97,9 +95,7 @@ bspatch "${DeviceTree}.dec" "${FirmwarePath}DeviceTree.img3" "${DeviceTree_patch
 
 echo "Editing manifest"
 
-echo "LLB.img3" >> "${manifest}"
-echo "iBoot.img3" >> "${manifest}"
-echo "DeviceTree.img3" >> "${manifest}"
+echo "LLB.img3" "iBoot.img3" "DeviceTree.img3" >> "${manifest}"
 
 echo "Cleaning up"
 
