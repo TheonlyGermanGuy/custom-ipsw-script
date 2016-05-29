@@ -103,7 +103,7 @@ EOL
 
 echo "Cleaning up"
 
-rm -f "${FirmwarePath}*.dec"
+rm -f ${FirmwarePath}*.dec
 
 read -n1 -r -p "Do you want to copy the original ipsw? [y/n]: " choice
 
