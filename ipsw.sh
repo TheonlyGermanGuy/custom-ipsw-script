@@ -95,7 +95,11 @@ bspatch "${DeviceTree}.dec" "${FirmwarePath}DeviceTree.img3" "${DeviceTree_patch
 
 echo "Editing manifest"
 
-echo "LLB.img3" "iBoot.img3" "DeviceTree.img3" >> "${manifest}"
+cat >>"${manifest}" <<EOL
+"LLB.img3"
+"iBoot.img3"
+"DeviceTree.img3"
+EOL
 
 echo "Cleaning up"
 
