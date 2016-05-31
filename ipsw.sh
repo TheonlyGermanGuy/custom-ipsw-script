@@ -51,7 +51,7 @@ echo "Gathering File information"
 LLB=$(buddy LLB:File)
 iBoot=$(buddy iBoot:File)
 DeviceTree=$(buddy DeviceTree:File)
-manifest=$(buddy manifest:File)
+manifest=F*/a*/a*/manifest
 
 LLB_iv=$(buddy LLB:IV)
 LLB_k=$(buddy LLB:Key)
@@ -73,7 +73,7 @@ echo "Unzipping Files"
 unzip $2 "${LLB}" >/dev/null
 unzip $2 "${iBoot}" >/dev/null
 unzip $2 "${DeviceTree}" >/dev/null
-unzip $2 "${manifest}" >/dev/null
+unzip $1 "${manifest}" >/dev/null
 
 echo "Decrypting Files"
 
